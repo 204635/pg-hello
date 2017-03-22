@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function myInfo()
+{
+	info =  'Imie: Piotr \n Nazwisko: Duda \n Data urodzenia: 22.01.1994 \n Miejsce zamieszkania: Kraków' 	;
+
+	navigator.notification.alert(info);
+}
